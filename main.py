@@ -1,8 +1,11 @@
 import streamlit as st
 import langchain_helper as lh
+from dotenv import load_dotenv
 
 
 def main():
+    load_dotenv()
+
     st.title("Restaurant Name Generator")
 
     cuisine = st.sidebar.selectbox("Pick a Cuisine", ("Indian", "Italian", "Mexican", "American", "Arabic"))
