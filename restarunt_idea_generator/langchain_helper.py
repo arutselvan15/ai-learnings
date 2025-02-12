@@ -1,5 +1,3 @@
-import os
-
 import config
 import config as cfg
 from langchain_openai import OpenAI
