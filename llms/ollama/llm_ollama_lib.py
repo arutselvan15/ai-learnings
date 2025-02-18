@@ -4,7 +4,7 @@ import ollama
 def main():
     client = ollama.Client()
 
-    response = client.generate(model="mistral", prompt="write a two lines of a poem about keyboard and mouse.")
+    response = client.generate(model="llama3.2:1b", prompt="write a two lines of a poem about keyboard and mouse.")
 
     print("Response:", response.response)
 
