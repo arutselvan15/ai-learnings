@@ -1,0 +1,13 @@
+jupyterlab==4.3.5
+voila==0.5.8
+notebook==7.3.2
+langchain==0.3.18
+langchain_community==0.3.17
+langchain-openai==0.3.4
+openai==1.61.1
+streamlit==1.42.0
+python-dotenv==1.0.1
+transformers==4.49.0
+groq==0.18.0
+requests==2.32.3
+ollama==0.4.7
