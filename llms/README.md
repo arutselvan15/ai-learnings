@@ -162,7 +162,7 @@ Sample:
 
 You can create a custom LLM model using base model and your custom parameters.
 
-Sample [Modelfile](llms/ollama/Modelfile)
+Sample [Modelfile](llms/ollama/Modelfile-llama321b-mario)
 
     $] ollama create llama321b-mario -f Modelfile-llama321b-mario
     $] ollama run llama321b-mario
